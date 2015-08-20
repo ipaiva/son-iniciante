@@ -1,0 +1,7 @@
+categoria_homepage:
+    path:       /categorias
+    defaults: { _controller: CategoriaBundle:Default:index }
+
+    path:       /categorias/{categoria}/{produto}
+    defaults: { _controller: CategoriaBundle:Default:listProdutosCategoria }
+

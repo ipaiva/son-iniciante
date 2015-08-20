@@ -1,0 +1,11 @@
+categoria:
+    resource: "@CategoriaBundle/Resources/config/routing.yml"
+    prefix:   /
+
+catalogo:
+    resource: "@CatalogoBundle/Resources/config/routing.yml"
+    prefix:   /
+
+app:
+    resource: "@AppBundle/Controller/"
+    type:     annotation
